@@ -1,0 +1,20 @@
+{
+  "name": "learning_node",
+  "version": "1.0.0",
+  "description": "a learning environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "uglify": "uglifyjs index.js --output script.js"
+  },
+  "author": "Zahra Behfarshad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.8.0"
+  }
+}
